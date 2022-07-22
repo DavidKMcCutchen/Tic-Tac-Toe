@@ -3,7 +3,14 @@
   "projects": {
     "api": "apps/api",
     "api-interfaces": "libs/api-interfaces",
+    "core-data": "libs/core-data",
+    "core-state": "libs/core-state",
     "dashboard": "apps/dashboard",
-    "dashboard-e2e": "apps/dashboard-e2e"
+    "dashboard-e2e": "apps/dashboard-e2e",
+    "environment": "libs/environment",
+    "material": "libs/material",
+    "pipes": "libs/pipes",
+    "theme": "libs/theme",
+    "ui-login": "libs/ui-login"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/environment/src",
+  "prefix": "tic-tac-toe",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/environment"],
+      "options": {
+        "jestConfig": "libs/environment/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/environment/**/*.ts",
+          "libs/environment/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

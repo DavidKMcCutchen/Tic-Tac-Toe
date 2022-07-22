@@ -1,0 +1,18 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+    justify-content: center;
+}
+  
+tic-tac-toe-square {
+    border: 1px gray solid;
+    height: 200px;
+
+    
+}
+
+.player__header {
+    display: grid;
+    justify-content: center;
+}

@@ -1,9 +1,18 @@
-<div style="text-align: center">
-  <h1>Welcome to dashboard!</h1>
-  <img
-    width="450"
-    src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png"
-    alt="Nx - Smart, Fast and Extensible Build System"
-  />
-</div>
-<div>Message: {{ hello$ | async | json }}</div>
+<nb-layout>
+
+  <nb-layout-header class="Header" fixed>
+    <h1>Tic-Tac-Toe</h1>
+  </nb-layout-header>
+
+  <nb-layout-column>
+
+    <tic-tac-toe-board></tic-tac-toe-board>
+    
+
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+  <!-- Insert footer here -->
+  </nb-layout-footer>
+
+</nb-layout>

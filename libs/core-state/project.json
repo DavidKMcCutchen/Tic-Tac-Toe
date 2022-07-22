@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/core-state/src",
+  "prefix": "tic-tac-toe",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/core-state"],
+      "options": {
+        "jestConfig": "libs/core-state/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/core-state/**/*.ts",
+          "libs/core-state/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
